@@ -13,3 +13,8 @@ npm run build
 ```
 
 You will get the processed sources and a zip file inside `build/`.
+
+
+## Configuration
+
+For big folder trees, you might still get a timeout error even after applying this fix. Disabling `foldersize` in the configuration really helps. I also recommend disabling `download` to prevent someone from trying to download a giant folder as a zip file.
